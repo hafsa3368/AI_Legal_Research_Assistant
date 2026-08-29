@@ -1,0 +1,14 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Secrets
+backend/.env
+
+# Frontend (has its own .gitignore too)
+frontend/node_modules/
+frontend/dist/
+
+# Data (not meant for version control)
+data/
